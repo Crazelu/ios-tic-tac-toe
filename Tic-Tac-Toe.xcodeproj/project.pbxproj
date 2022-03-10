@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840FF8AE27DAB1A10075BBE5 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FF8AD27DAB1A10075BBE5 /* CardRow.swift */; };
 		8419C27D27DAA9170078E9A6 /* Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419C27C27DAA9170078E9A6 /* Tic_Tac_ToeApp.swift */; };
 		8419C27F27DAA9170078E9A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419C27E27DAA9170078E9A6 /* ContentView.swift */; };
 		8419C28127DAA9190078E9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8419C28027DAA9190078E9A6 /* Assets.xcassets */; };
 		8419C28427DAA9190078E9A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8419C28327DAA9190078E9A6 /* Preview Assets.xcassets */; };
+		8419C28B27DAAB8B0078E9A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419C28A27DAAB8B0078E9A6 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840FF8AD27DAB1A10075BBE5 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
 		8419C27927DAA9170078E9A6 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8419C27C27DAA9170078E9A6 /* Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		8419C27E27DAA9170078E9A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8419C28027DAA9190078E9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8419C28327DAA9190078E9A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8419C28A27DAAB8B0078E9A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				8419C27E27DAA9170078E9A6 /* ContentView.swift */,
 				8419C28027DAA9190078E9A6 /* Assets.xcassets */,
 				8419C28227DAA9190078E9A6 /* Preview Content */,
+				8419C28A27DAAB8B0078E9A6 /* Card.swift */,
+				840FF8AD27DAB1A10075BBE5 /* CardRow.swift */,
 			);
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8419C27F27DAA9170078E9A6 /* ContentView.swift in Sources */,
+				8419C28B27DAAB8B0078E9A6 /* Card.swift in Sources */,
+				840FF8AE27DAB1A10075BBE5 /* CardRow.swift in Sources */,
 				8419C27D27DAA9170078E9A6 /* Tic_Tac_ToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
